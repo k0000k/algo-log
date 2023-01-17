@@ -5,7 +5,7 @@ counter = K - 1
 answer = []
 
 while (True):
-    if not(numbers):
+    if not numbers:
         break
     if (counter >= len(numbers)):
         counter -= len(numbers)
