@@ -4,7 +4,7 @@ import heapq
 h = []
 absolute_h = []
 
-cnt = int(input())
+cnt = int(sys.stdin.readline().rstrip())
 
 for i in range(cnt):
     num = int(sys.stdin.readline().rstrip())
